@@ -1,0 +1,20 @@
+.catalog-detail-slick-preview .slick-dotted.slick-slider {
+    padding-bottom: 0;
+}
+
+.catalog-detail-slick-preview .slick-dots {
+    position: static;
+}
+
+.catalog-detail-slick-preview .slick-dots li {
+    width: auto;
+    height: auto;
+}
+
+.catalog-detail-slick-preview .active-arrow {
+    display: none;
+}
+
+.catalog-detail-slick-preview  .slick-active .active-arrow {
+    display: block;
+}

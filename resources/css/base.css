@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url("../fonts/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto-Medium.woff2") format("woff2");
+}
+
+html, body {
+    min-width: 375px;
+}
+
+.wrapper {
+    background: url("../images/main_bg.png") 0 0 repeat;
+}
+
+.dropdown-navigation-submenu {
+    min-width: 208px;
+    z-index: 1;
+}
+
+.bullet-list-item li::before {
+    content: '\2022';
+    font-size: 1.5em;
+    vertical-align:middle;
+    color: #ff7519;
+    padding-right: 8px;
+}
+
+select, textarea {
+    padding: .5rem 2.5rem .5rem .75rem;
+    line-height: 1.5rem;
+}

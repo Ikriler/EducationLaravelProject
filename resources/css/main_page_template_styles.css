@@ -1,0 +1,19 @@
+.news-block-inverse {
+    background: url("../images/dark_bg.png") 0 0 repeat;
+}
+
+.banner, .banner.slick-slide {
+    height: 280px;
+}
+
+@media (min-width: 1024px) {
+    .banner, .banner.slick-slide {
+        height: 360px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .banner, .banner.slick-slide {
+        height: 540px;
+    }
+}
